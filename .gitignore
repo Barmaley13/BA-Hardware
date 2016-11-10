@@ -45,3 +45,16 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Eagle Temp Files
+*.l\#*
+*.b\#*
+*.s\#*
+*.epf
+*.lck
+*.log
+
+# Archives
+*.zip
+*.rar
+
