@@ -171,6 +171,12 @@
 <package name="MOUNT-HOLE-NO-PLATE-4-40">
 <hole x="0" y="0" drill="3.175"/>
 </package>
+<package name="MOUNT-HOLE-NO-PLATE-5.0MM">
+<hole x="0" y="0" drill="5"/>
+</package>
+<package name="MOUNT-HOLE-NO-PLATE-320MILS">
+<hole x="0" y="0" drill="8.128"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -262,6 +268,16 @@ Various fiducial points for machine vision alignment.</description>
 </technologies>
 </device>
 <device name="4-40" package="MOUNT-HOLE-NO-PLATE-4-40">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0MM" package="MOUNT-HOLE-NO-PLATE-5.0MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="320MILS" package="MOUNT-HOLE-NO-PLATE-320MILS">
 <technologies>
 <technology name=""/>
 </technologies>
