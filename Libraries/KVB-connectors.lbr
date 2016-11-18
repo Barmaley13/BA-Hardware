@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -553,6 +553,37 @@
 <text x="-3.81" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-3.81" y="0" size="1.27" layer="21">.</text>
 </package>
+<package name="RJHSE-5381">
+<hole x="6.35" y="3.429" drill="3.2512"/>
+<hole x="-6.35" y="3.429" drill="3.2512"/>
+<pad name="13" x="8.128" y="6.858" drill="1.5748"/>
+<pad name="14" x="-8.128" y="6.858" drill="1.5748"/>
+<pad name="8" x="-3.556" y="7.747" drill="0.889"/>
+<pad name="7" x="-2.54" y="5.969" drill="0.889"/>
+<pad name="6" x="-1.524" y="7.747" drill="0.889"/>
+<pad name="5" x="-0.508" y="5.969" drill="0.889"/>
+<pad name="4" x="0.508" y="7.747" drill="0.889"/>
+<pad name="3" x="1.524" y="5.969" drill="0.889"/>
+<pad name="2" x="2.54" y="7.747" drill="0.889"/>
+<pad name="1" x="3.556" y="5.969" drill="0.889"/>
+<pad name="12" x="-6.858" y="12.573" drill="0.889"/>
+<pad name="11" x="-4.572" y="12.573" drill="0.889"/>
+<pad name="10" x="4.572" y="12.573" drill="0.889"/>
+<pad name="9" x="6.858" y="12.573" drill="0.889"/>
+<rectangle x1="-8.255" y1="-2.032" x2="8.255" y2="13.716" layer="39"/>
+<wire x1="-8.382" y1="5.08" x2="-8.382" y2="0" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="0" x2="-8.382" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="-2.286" x2="8.382" y2="-2.286" width="0.127" layer="21"/>
+<wire x1="8.382" y1="-2.286" x2="8.382" y2="0" width="0.127" layer="21"/>
+<wire x1="8.382" y1="0" x2="8.382" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="8.636" x2="-8.382" y2="13.97" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="13.97" x2="8.382" y2="13.97" width="0.127" layer="21"/>
+<wire x1="8.382" y1="13.97" x2="8.382" y2="8.636" width="0.127" layer="21"/>
+<wire x1="-8.382" y1="0" x2="8.382" y2="0" width="0.127" layer="21" style="shortdash"/>
+<text x="0" y="-1.27" size="1.27" layer="21" align="center">PCB EDGE</text>
+<text x="-8.382" y="14.478" size="1.27" layer="25">&gt;NAME</text>
+<text x="8.89" y="0" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M20-9990446">
@@ -831,6 +862,28 @@
 <text x="0" y="0.762" size="1.27" layer="95">&gt;NAME</text>
 <text x="10.16" y="-20.32" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="PAD" x="7.62" y="-22.86" visible="pin" length="middle" rot="R90"/>
+</symbol>
+<symbol name="RJHSE-5381">
+<pin name="TX_D1+" x="-5.08" y="-2.54" length="middle"/>
+<pin name="TX_D1-" x="-5.08" y="-5.08" length="middle"/>
+<pin name="RX_D2+" x="-5.08" y="-10.16" length="middle"/>
+<pin name="BI_D3+" x="-5.08" y="-17.78" length="middle"/>
+<pin name="BI_D3-" x="-5.08" y="-20.32" length="middle"/>
+<pin name="RX_D2-" x="-5.08" y="-12.7" length="middle"/>
+<pin name="BI_D4+" x="-5.08" y="-25.4" length="middle"/>
+<pin name="BI_D4-" x="-5.08" y="-27.94" length="middle"/>
+<pin name="GREEN+" x="-5.08" y="-43.18" length="middle"/>
+<pin name="GREEN-" x="-5.08" y="-45.72" length="middle"/>
+<pin name="YELLOW-" x="-5.08" y="-38.1" length="middle"/>
+<pin name="YELLOW+" x="-5.08" y="-35.56" length="middle"/>
+<pin name="SHIELD1" x="-5.08" y="-53.34" length="middle"/>
+<pin name="SHIELD2" x="-5.08" y="-55.88" length="middle"/>
+<wire x1="0" y1="0" x2="0" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="0" y1="-58.42" x2="12.7" y2="-58.42" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-58.42" x2="12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="0.508" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="-60.96" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1211,6 +1264,40 @@ Right Angle Tin</description>
 <technology name="">
 <attribute name="MAN-PART_NUM" value="53261-0471" constant="no"/>
 <attribute name="MANUFACTURER" value="Molex" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RJHSE-5381" prefix="J">
+<description>&lt;b&gt;Jack Modular Connector 8p8c (RJ45, Ethernet)&lt;/b&gt;&lt;br/&gt;
+90° Angle (Right) Shielded&lt;br/&gt;
+EMI Finger</description>
+<gates>
+<gate name="G$1" symbol="RJHSE-5381" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RJHSE-5381">
+<connects>
+<connect gate="G$1" pin="BI_D3+" pad="4"/>
+<connect gate="G$1" pin="BI_D3-" pad="5"/>
+<connect gate="G$1" pin="BI_D4+" pad="7"/>
+<connect gate="G$1" pin="BI_D4-" pad="8"/>
+<connect gate="G$1" pin="GREEN+" pad="10"/>
+<connect gate="G$1" pin="GREEN-" pad="9"/>
+<connect gate="G$1" pin="RX_D2+" pad="3"/>
+<connect gate="G$1" pin="RX_D2-" pad="6"/>
+<connect gate="G$1" pin="SHIELD1" pad="13"/>
+<connect gate="G$1" pin="SHIELD2" pad="14"/>
+<connect gate="G$1" pin="TX_D1+" pad="1"/>
+<connect gate="G$1" pin="TX_D1-" pad="2"/>
+<connect gate="G$1" pin="YELLOW+" pad="12"/>
+<connect gate="G$1" pin="YELLOW-" pad="11"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MAN-PART_NUM" value="RJHSE-5381" constant="no"/>
+<attribute name="MANUFACTURER" value="Amphenol" constant="no"/>
 </technology>
 </technologies>
 </device>
