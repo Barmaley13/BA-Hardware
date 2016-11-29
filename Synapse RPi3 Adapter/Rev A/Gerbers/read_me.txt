@@ -11,8 +11,8 @@ PCB Fab Requirements:
 	- 2-Layer PCB Stackup
 	- 1oz Top and Bottom Copper Thickness
 	- Finish: ENIG
-	- Soldermask on top and bottom
-	- Silkscreen on top and bottom
+	- Soldermask on top and bottom (use white color)
+	- Silkscreen on top and bottom (use black color)
 	- PCB Thickness: 0.062"
 	- PCB Material: FR-04
 
