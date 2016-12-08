@@ -618,9 +618,9 @@ SOT-23-3</description>
 <text x="7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="LTC1760">
-<pin name="CLP" x="-5.08" y="-2.54" length="middle"/>
+<pin name="CLP" x="-5.08" y="-5.08" length="middle"/>
 <pin name="DCDIV" x="-5.08" y="-27.94" length="middle"/>
-<pin name="DCIN" x="-5.08" y="-5.08" length="middle"/>
+<pin name="DCIN" x="-5.08" y="-2.54" length="middle"/>
 <pin name="BAT1" x="-5.08" y="-10.16" length="middle"/>
 <pin name="BAT2" x="-5.08" y="-17.78" length="middle"/>
 <pin name="GDCI" x="35.56" y="-2.54" length="middle" rot="R180"/>
@@ -662,8 +662,8 @@ SOT-23-3</description>
 <pin name="GND" x="20.32" y="-129.54" length="middle" rot="R90"/>
 <pin name="VDDS" x="35.56" y="-66.04" length="middle" rot="R180"/>
 <pin name="VPLUS" x="-5.08" y="-43.18" length="middle"/>
-<pin name="VCC2" x="-5.08" y="-45.72" length="middle"/>
-<pin name="VCC" x="-5.08" y="-48.26" length="middle"/>
+<pin name="VCC2" x="-5.08" y="-48.26" length="middle"/>
+<pin name="VCC" x="-5.08" y="-45.72" length="middle"/>
 <pin name="COMP1" x="-5.08" y="-114.3" length="middle"/>
 <pin name="ITH" x="-5.08" y="-109.22" length="middle"/>
 <wire x1="0" y1="0" x2="0" y2="-124.46" width="0.254" layer="94"/>
