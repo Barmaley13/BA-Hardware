@@ -9097,28 +9097,28 @@ Various fiducial points for machine vision alignment.</description>
 </net>
 <net name="SNPS_RED" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="P$2"/>
-<wire x1="40.64" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
-<label x="15.24" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="76.2" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="78.74" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <label x="7.62" y="78.74" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SNPS_GREEN" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="P$3"/>
 <wire x1="40.64" y1="149.86" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
 <label x="15.24" y="149.86" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="SNPS_GREEN" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="76.2" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
 <label x="7.62" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="P$2"/>
+<wire x1="40.64" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
+<label x="15.24" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RPI3_GREEN" class="0">
