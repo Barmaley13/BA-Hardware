@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -61,6 +61,16 @@
 </layers>
 <library>
 <packages>
+<package name="CMR200T32768DZYT">
+<smd name="P$1" x="3.875" y="1.5" dx="2.5" dy="1" layer="1"/>
+<smd name="P$2" x="3.875" y="-1.5" dx="2.5" dy="1" layer="1"/>
+<smd name="P$3" x="-3.875" y="0" dx="2.5" dy="2.5" layer="1"/>
+<rectangle x1="-5" y1="-1" x2="2" y2="1" layer="39"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1" x2="2" y2="-1" width="0.127" layer="21"/>
+<text x="-5" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="XTAL">
@@ -76,11 +86,33 @@
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
 <text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="CMR200T32768DZYT" prefix="X">
+<description>&lt;b&gt;32.768kHz ±20ppm Crystal 7pF 50 kOhm -40°C ~ 85°C&lt;/b&gt;&lt;br/&gt;
+Surface Mount Cylindrical Can&lt;br/&gt;
+Radial</description>
+<gates>
+<gate name="G$1" symbol="XTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CMR200T32768DZYT">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MAN-PART_NUM" value="CMR200T32768DZYT" constant="no"/>
+<attribute name="MANUFACTURER" value="Citizen" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
