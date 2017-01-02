@@ -1848,7 +1848,10 @@ Surface Mount, Right Angle</description>
 <connect gate="G$1" pin="PAD" pad="PAD0 PAD1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MAN-PART_NUM" value="FH33-4S-1SH(10)" constant="no"/>
+<attribute name="MANUFACTURER" value="Hirose" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="REMOTE" package="FH33-4S-1SH(10)-REMOTE">
