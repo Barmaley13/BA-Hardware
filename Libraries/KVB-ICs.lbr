@@ -1235,7 +1235,7 @@ SOT-753</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MAN-PART-NUM" value="LTC1760" constant="no"/>
+<attribute name="MAN-PART_NUM" value="LTC1760" constant="no"/>
 <attribute name="MANUFACTURER" value="Linear Technology" constant="no"/>
 </technology>
 </technologies>
@@ -1340,7 +1340,7 @@ SC-70-6</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MAN-PAR_NUM" value="NC7WZ07P6X" constant="no"/>
+<attribute name="MAN-PART_NUM" value="NC7WZ07P6X" constant="no"/>
 <attribute name="MANUFACTURER" value="Fairchild" constant="no"/>
 </technology>
 </technologies>
@@ -1475,7 +1475,7 @@ SC-70-6</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MAN-PAR_NUM" value="LM75BD" constant="no"/>
+<attribute name="MAN-PART_NUM" value="LM75BD" constant="no"/>
 <attribute name="MANUFACTURER" value="NXP USA Inc" constant="no"/>
 </technology>
 </technologies>
