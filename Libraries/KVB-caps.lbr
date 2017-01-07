@@ -109,7 +109,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAP-POL" prefix="C">
+<deviceset name="CAP-POL" prefix="C" uservalue="yes">
 <description>Polarized Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
